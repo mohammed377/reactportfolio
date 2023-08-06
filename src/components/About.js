@@ -26,8 +26,8 @@ function About() {
       </div>
 
       <p className="disc">
-        I am John Doe a front-end web developer i have been working in these field for 5 years and learned the most advanced technologies and finished a lot of creative <a href="#" id="content3-link" >Projects</a> with different
-        technologies, you can see my skills as a front-end developer <a href="#" id="content2-link">here</a> .
+        I am Mohammed Ismail a front-end web developer i have been working in these field for 5 years and learned the most advanced technologies and finished a lot of creative <a href="#">Projects</a> with different
+        technologies, you can see my skills as a front-end developer <a href="#">here</a> .
       </p>   
 
 
