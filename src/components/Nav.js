@@ -7,8 +7,9 @@ const Nav = ({ links, switchContent, activeLink }) => {
     <div className="side-nav">
       <img src={myImage}className="profile-image" alt="profile_pic"/>
       {links.map(link => (
-        <button
+        <a
           key={link.id}  
+          href="#"
           onClick={(e) => {
             e.preventDefault();
             switchContent(link.id);
@@ -16,7 +17,7 @@ const Nav = ({ links, switchContent, activeLink }) => {
           className={`clink ${activeLink === link.id ? 'active-link' : ''}`} 
          >
            {link.text}
-         </button>
+         </a>
        ))}
        <SocialIcons />
     </div>
