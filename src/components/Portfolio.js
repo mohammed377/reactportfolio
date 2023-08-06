@@ -16,29 +16,23 @@ const Portfolio = () => {
           <div className="project-card">
             <img src={img1} alt="" />
             <h3>DigitalMarketPlace</h3>
-            <a href="#">See Project</a>
           </div> 
           
           <div className="project-card">
             <img src={img5} alt="" />
             <h3>Tic-Tac-Toe</h3>
-            <a href="#">See Project</a>
           </div>           <div className="project-card">
             <img src={img4} alt="" />
             <h3>Chess Game</h3>
-            <a href="#">See Project</a>
           </div>           <div className="project-card">
             <img src={img3} alt="" />
             <h3>Blog Site</h3>
-            <a href="#">See Project</a>
           </div>           <div className="project-card">
             <img src={img4} alt="" />
             <h3>Todo list</h3>
-            <a href="#">See Project</a>
           </div>           <div className="project-card">
             <img src={img5} alt="" />
             <h3>Social media</h3>
-            <a href="#">See Project</a>
           </div> 
         </div>
       </div>  
